@@ -38,6 +38,7 @@ namespace MinioDemo
 
                 //bucket policy
                 var policy = minio.GetPolicyAsync(bucketName).Result;
+
                 
                 Console.WriteLine(policy);
             }
